@@ -22,7 +22,7 @@ namespace cisUtils {
         player.execute(command);
 
         // Slight pause to let the entity settle into position
-        loops.pause(100);
+        loops.pause(1000);
 
         // Fetch and round the player's new orientation
         let direction = Math.round(player.getOrientation());
